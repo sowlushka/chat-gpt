@@ -1,0 +1,84 @@
+/* Общие стили для всего сайта */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Стили для шапки */
+
+.navbar {
+    background-color: #333;
+    border: none;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+/* Стили для основного содержимого */
+
+.jumbotron {
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/12/15/46/solar-984556_960_720.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Стили для блоков */
+
+.block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.block h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Стили для футера */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0;
+}
